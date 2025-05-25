@@ -1,0 +1,20 @@
+﻿@model EmpleadosApp.ViewComponents.EmpleadosStatsViewModel
+
+<div class="card mb-4">
+    <div class="card-header">
+        <i class="fas fa-chart-pie me-1"></i>
+        Estadísticas de Empleados
+    </div>
+    <div class="card-body">
+        <div class="row">
+            <div class="col-md-6 text-center">
+                <div class="h4 mb-0 text-success">@Model.ActiveCount</div>
+                <div class="small text-muted">Empleados Activos</div>
+            </div>
+            <div class="col-md-6 text-center">
+                <div class="h4 mb-0 text-danger">@Model.InactiveCount</div>
+                <div class="small text-muted">Empleados Inactivos</div>
+            </div>
+        </div>
+    </div>
+</div>
