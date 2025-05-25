@@ -1,58 +1,54 @@
-# Aplicación CRUD de Empleados
+# Aplicaciï¿½n CRUD de Empleados
 
-Una aplicación web desarrollada con ASP.NET Core Razor Pages que permite gestionar empleados.
+Una aplicaciï¿½n web desarrollada con ASP.NET Core Razor Pages que permite gestionar empleados.
 
-## Características
+## Caracterï¿½sticas
 
 - CRUD completo de empleados (Crear, Leer, Actualizar, Eliminar)
 - Validaciones con DataAnnotations
-- Patrón Repository
-- ViewComponent para mostrar estadísticas
+- Patrï¿½n Repository
+- ViewComponent para mostrar estadï¿½sticas
 - Entity Framework Core con SQL Server LocalDB
 
 ## Requisitos
 
 - .NET 6.0 SDK o superior
-- SQL Server LocalDB o SQLite
+- SQL Server LocalDB
 
-## Instalación
+## Instalaciï¿½n
 
 1. Clonar el repositorio:
-git clone https://github.com/tuusuario/EmpleadosApp.git
+git clone <https://github.com/tuusuario/EmpleadosApp.git>
 cd EmpleadosApp
-
 
 2. Restaurar paquetes NuGet:  
 
 dotnet restore
 
-
 3. Aplicar migraciones para crear la base de datos:  
 
 dotnet ef database update
 
-
-4. Ejecutar la aplicación:  
+4. Ejecutar la aplicaciï¿½n:  
 
 dotnet run
 
-
 5. Abrir en el navegador:  
 
-https://localhost:5001
-
+<http://localhost:5001>
+<https://localhost:7000>
 
 ## Estructura del Proyecto  
 
 - **Models**: Contiene la clase Empleado con validaciones  
 - **Data**: Contiene el contexto de Entity Framework  
-- **Repositories**: Implementa el patrón Repository  
-- **Pages**: Contiene las páginas Razor para el CRUD  
-- **ViewComponents**: Contiene el componente de estadísticas  
+- **Repositories**: Implementa el patrï¿½n Repository  
+- **Pages**: Contiene las pï¿½ginas Razor para el CRUD  
+- **ViewComponents**: Contiene el componente de estadï¿½sticas  
 
-## Tecnologías Utilizadas  
+## Tecnologï¿½as Utilizadas  
 
-- ASP.NET Core 6.0  
+- ASP.NET Core 8.0  
 - Entity Framework Core  
 - Bootstrap 5  
 - SQL Server LocalDB
